@@ -10,4 +10,21 @@
     <string name="tVContinue">Continuar</string>
     <string name="tVHelp">Ajuda</string>
     <string name="tVprivacyPolicy">Política de Privacidade</string>
+    <string name="title_activity_variable_list">EvapoCalc</string>
+    <string name="obter_dados_do_gps">Obter dados do GPS</string>
+    <string name="tvAltitude">Altitude(m)</string>
+    <string name="tvLatitude">Latitude</string>
+    <string name="tvFotoperiodo">Fotopériodo (h)</string>
+    <string name="tvDiasDoMes">Dias do Mês</string>
+    <string name="tvTempMed">Temperatura Média (°C)</string>
+    <string name="tvTemOrvalho">Temp. Orvalho (°C) </string>
+    <string name="tvTempMaxima">Temp. Máxima (°C)</string>
+    <string name="tvTempMinima">Temp. Mínima(°C)</string>
+    <string name="tvTempNormal">Temp.Normal(°C)</string>
+    <string name="tvisolacao">Temp. Isolação(%)</string>
+    <string name="tvQo">Qo (mm/dia)</string>
+    <string name="tvRn">Rn (Mj/m²dia)</string>
+    <string name="tvG">G (Mj/m²dia)</string>
+    <string name="tvUmidadeRelativa">Umidade Relativa(méd %)</string>
+    <string name="tvVelocidaVendo">Velocidade do Vendo(m/s)</string>
 </resources>

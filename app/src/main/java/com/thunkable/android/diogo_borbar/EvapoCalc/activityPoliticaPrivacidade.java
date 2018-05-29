@@ -12,7 +12,7 @@ public class activityPoliticaPrivacidade extends AppCompatActivity {
         setContentView(R.layout.activity_politica_privacidade);
 
         WebView webView = (WebView) findViewById(R.id.wv_content);
-        webView.loadUrl("https://diogobrodrigues.wordpress.com/politica-de-privacidade-2/");
+        webView.loadUrl("file:///android_asset/politica_privacidade.html");
     }
 }
 

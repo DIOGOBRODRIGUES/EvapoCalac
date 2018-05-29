@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textViewInstruction"
-        android:layout_width="313dp"
-        android:layout_height="61dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
@@ -23,14 +23,14 @@
 
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBoxTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:text="@string/tVtemperature"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/textViewInstruction"
@@ -38,58 +38,58 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewInstruction" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/checkBoxIso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/tVisolation"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        app:layout_constraintStart_toStartOf="@+id/checkBoxTemp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxTemp" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/checkBoxRad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/tVradiation"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/checkBox2"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+        app:layout_constraintStart_toStartOf="@+id/checkBoxIso"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxIso" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/checkBoxFlux"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/tVheatSoil"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/checkBox3"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+        app:layout_constraintStart_toStartOf="@+id/checkBoxRad"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxRad" />
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/checkBoxHum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/tVhumidity"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/checkBox4"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+        app:layout_constraintStart_toStartOf="@+id/checkBoxFlux"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxFlux" />
 
     <CheckBox
-        android:id="@+id/checkBox6"
+        android:id="@+id/checkBoxVel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/tVwindSpeed"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/checkBox5"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+        app:layout_constraintStart_toStartOf="@+id/checkBoxHum"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxHum" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -101,10 +101,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textViewInstruction"
         app:layout_constraintStart_toStartOf="@+id/textViewInstruction"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox6">
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxVel">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonContinue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -122,7 +122,7 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
