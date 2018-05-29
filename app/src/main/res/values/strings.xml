@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">EvapoCalc</string>
+    <string name="instruction">Marque aqui as variáveis disponíveis para o cálculo da evapotranspiração:</string>
+    <string name="tVtemperature">Temperatura</string>
+    <string name="tVisolation">Isolação</string>
+    <string name="tVradiation">Radiação</string>
+    <string name="tVheatSoil">Fluxo no Solo</string>
+    <string name="tVhumidity">Umidade</string>
+    <string name="tVwindSpeed">Velocidade do Vento</string>
+    <string name="tVContinue">Continuar</string>
+    <string name="tVHelp">Ajuda</string>
+    <string name="tVprivacyPolicy">Política de Privacidade</string>
 </resources>
