@@ -27,4 +27,7 @@
     <string name="tvG">G (Mj/m²dia)</string>
     <string name="tvUmidadeRelativa">Umidade Relativa(méd %)</string>
     <string name="tvVelocidaVendo">Velocidade do Vendo(m/s)</string>
+    <string name="h_s">H.S.</string>
+    <string name="hargreavesSamani">Hargreave Samani</string>
+    <string name="calcular">Calcular</string>
 </resources>

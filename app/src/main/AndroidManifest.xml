@@ -20,11 +20,12 @@
         </activity>
         <activity
             android:name=".activityPoliticaPrivacidade"
-            android:label="@string/tVprivacyPolicy"></activity>
+            android:label="@string/tVprivacyPolicy" />
         <activity
             android:name=".VariableList"
             android:label="@string/title_activity_variable_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ResultActivity"></activity>
     </application>
 
 </manifest>
