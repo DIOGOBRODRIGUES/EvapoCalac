@@ -21,7 +21,7 @@
     <string name="tvTempMaxima">Temp. Máxima (°C)</string>
     <string name="tvTempMinima">Temp. Mínima(°C)</string>
     <string name="tvTempNormal">Temp.Normal(°C)</string>
-    <string name="tvisolacao">Temp. Isolação(%)</string>
+    <string name="tvisolacao">Isolação(%)</string>
     <string name="tvQo">Qo (mm/dia)</string>
     <string name="tvRn">Rn (Mj/m²dia)</string>
     <string name="tvG">G (Mj/m²dia)</string>
@@ -30,4 +30,5 @@
     <string name="h_s">H.S.</string>
     <string name="hargreavesSamani">Hargreave Samani</string>
     <string name="calcular">Calcular</string>
+    <string name="linacre">Linacre</string>
 </resources>
